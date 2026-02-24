@@ -25,8 +25,8 @@ A modern, feature-rich AI chat application built with Next.js 16, React 19, and 
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd aichat
+git clone https://github.com/shekhsahebali/ai-chat-ui.git
+cd ai-chat-ui
 ```
 
 2. Install dependencies:
