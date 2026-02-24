@@ -1,10 +1,11 @@
 "use client";
 
 import * as React from "react";
-import { MessagesSquare, PlusIcon } from "lucide-react";
+import { MessagesSquare, PlusIcon, Github } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
+  SidebarFooter,
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
@@ -49,6 +50,22 @@ export function ThreadListSidebar({
           New Chat
         </Button>
       </SidebarContent>
+      <SidebarFooter className="p-4 border-t">
+        <Button
+          variant="ghost"
+          className="w-full justify-start"
+          asChild
+        >
+          <a
+            href="https://github.com/shekhsahebali/ai-chat-ui"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Github className="h-4 w-4 mr-2" />
+            View on GitHub
+          </a>
+        </Button>
+      </SidebarFooter>
       <SidebarRail />
     </Sidebar>
   );
